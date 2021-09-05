@@ -1,0 +1,52 @@
+.btn-cart{
+    padding: 1rem;
+    margin: 1rem;
+    background-color:yellow;
+    border: .2rem solid yellow;
+    cursor: pointer;
+    transition: all .1s ease-in-out;
+
+    &:hover{
+        background-color:#ffff00e0;
+        border-color: black;
+        .cartAdded{
+            background-color:rgb(255, 94, 0);
+            color:#ffff00e0 ;
+        }
+        span{
+            color: rgba(0,0,0,.60);
+            border-color:  rgba(0,0,0,.60);
+        }
+    }
+    
+    span{
+        margin: 0 1rem;
+
+        i{
+            font-size: 3rem;
+        }
+    }
+    .btnTxt{
+        font-size: 2.5rem;
+        font-weight: 700;
+    }
+    .cartAdded{
+        background-color: red;
+        font-size: 2.5rem;
+        color: yellow;
+        padding:.3rem 1rem;
+        border: .2rem solid rgba(0,0,0,0.76);
+        border-radius: 50%;
+    }
+}
+
+.extra{
+    .cartAdded{
+        background-color: yellow;
+        font-size: 2.5rem;
+        color: red;
+        padding:.4rem 1.2rem;
+        border: .2rem solid rgba(0,0,0,0.76);
+        border-radius: 50%;
+    }
+}

@@ -1,0 +1,21 @@
+.mainLi{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    .actions{
+        button{
+            padding: 1rem;
+            margin: .6rem;
+            cursor: pointer;
+            background-color: green;
+            color: white;
+            font-size: 1.5rem;
+            border: .1rem solid green;
+
+            &:hover{
+                background-color: rgba(0, 128, 0, 0.486);
+                border: .1rem solid green;
+            }
+        }
+    }
+}

@@ -1,0 +1,16 @@
+.MealSummary{
+    text-align: center;
+    background-color: yellow;
+    width: 40%;
+    margin: auto;
+    padding: 2.5rem;
+    position: relative;
+    bottom: 17rem;
+    box-shadow: .7rem .5rem .5rem rgba(0, 0, 0, 0.67);
+    h2{
+        font-size: 4rem;
+    }
+    p{
+        font-size: 2rem;
+    }
+}

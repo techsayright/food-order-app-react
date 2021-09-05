@@ -1,0 +1,22 @@
+.overlay{
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.76);
+    top: 0;
+    left: 0;
+    z-index: 10;
+}
+
+
+.dialog{
+    position: fixed;
+    background-color: white;
+    width: 40%;
+    max-height: 70vh;
+    top: 20%;
+    left: 30%;
+    padding: 2rem;
+    box-shadow: .7rem .5rem .5rem rgba(0, 0, 0, 0.76);
+    z-index: 99;
+}
